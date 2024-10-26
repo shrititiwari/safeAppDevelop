@@ -1,0 +1,397 @@
+.cardContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal {
+    min-height: 250px;
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.heading h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+
+.heading img {
+    width: 110px;
+    height: auto;
+}
+
+.card span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #45a049;
+    margin-bottom: 0px;
+    display: block;
+}
+
+.card h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.btnGroup {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btnGroup a {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.active {
+    color: white !important;
+    background-color: #45a049 !important;
+}
+
+.card button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.createDeal {
+    margin: 30px 0px;
+}
+
+.createDeal img {
+    width: 200px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.createDeal button {
+    background-color: #45a049;
+    color: white;
+    cursor: pointer;
+}
+
+.iconNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+}
+
+.iconNavigation img {
+    width: 30px;
+    height: auto;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: -75px;
+    right: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px 5px 0 5px;
+    border: 1px solid lightgray;
+}
+
+.dropdownMenu ul {
+    list-style: none;
+}
+
+.dropdownMenu p {
+    text-decoration: none;
+    color: #222126;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* ======================setup================ */
+.Setup h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Setup img {
+    width: 150px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.Setup button {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Setup input {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    /* width: 50%;
+    margin: 0 auto;
+    display: block; */
+}
+
+/* ========================buyer Live Preview ========================= */
+.live button {
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #222126;
+    color: white;
+    cursor: pointer;
+}
+
+.inputForm {
+    display: grid;
+    grid-template-columns: 31% 1fr;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.inputForm input {
+    padding: 12px 15px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    font-weight: normal;
+    color: #222126;
+}
+
+.inputForm button {
+    padding: 11px 15px;
+    margin: 0;
+    background-color: #222126;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.greenBtn {
+    background-color: #45a049 !important;
+    color: white !important;
+}
+
+/* ============================================= */
+.imgGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-block: 30px 50px;
+}
+
+.imgGroup img {
+    width: 100px;
+}
+
+.BgText {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.rotateImage {
+    animation: rotate 3s linear infinite;
+}
+
+/* =======================dispute============================ */
+.dispute label {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 7px;
+}
+.dispute h4{
+    font-size: 20px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.dispute input {
+    font-size: 15px;
+    padding: 12px 15px;
+    border: 1px solid lightgray;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.dispute button {
+    background-color: #45a049;
+    color: white !important;
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.dispute p{
+    color: #45a049;
+    font-size: 15px;
+    text-align: center;
+    background: #efffef;
+    padding: 5px;
+    border-radius: 5px;
+    /* margin-top: -15px; */
+    margin-bottom: 20px;
+}
+/* ===========================modal======================= */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    width: 500px;
+    outline: none;
+  }
+  
+  .closeDiv{
+    position: relative;
+  }
+  .closeButton {
+    width: 17px;
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    cursor: pointer;
+  }
+  .closeBtn{
+    background-color: #222126;
+    color: white !important;
+  }
+.mobile{
+    display: none;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .heading h2 {
+        font-size: 30px;
+    }
+    .mobile{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .deal{
+        display: none;
+    }
+    .modalContent {
+        padding: 30px;
+      }
+      .closeButton{
+        right: -15px;
+        top: -15px;
+      }
+
+}
+
+@media (max-width: 450px) {
+    .heading h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .card span {
+        font-size: 18px;
+    }
+
+    .btnGroup {
+        gap: 5px;
+    }
+
+    .btnGroup a {
+        margin-bottom: 8px;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .inputForm {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .card button {
+        margin-bottom: 10px;
+    }
+
+    .inputForm button {
+        padding: 12px 15px;
+        margin: 0;
+        background-color: #222126;
+        color: white;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+}
